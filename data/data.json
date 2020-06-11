@@ -1,0 +1,57 @@
+[
+    {
+        "id": "0",
+        "productName": "Huawei MateBook X Pro 2020",
+        "image": "huawei-matebook-pro.jpg",
+        "cpu": "Intel Core i7, 8th generation",
+        "ram": "16GB",
+        "storage": "1 TB SSD, MX250 GPU",
+        "screen": "13.9-inch, 3K (3,000 x 2,080)",
+        "price": "1999",
+        "description": "The MateBook X Pro (2020) weighs just 1.33 kg and is only 14.6 mm thick. The display is a 13.9-inch Ultra FullView LTPS display with a 3K resolution (3,000 x 2,000 pixels) and ultra-slim bezels. It is also a touchscreen and can display 100% of the sRGB color gamut.The Huawei MateBook X Pro (2020) will be available from April 2020 in Europe, Asia Pacific, Russia, Latin America, Japan, and the Middle East. Prices start from €1,499 for the Core i5 variant with 16 GB RAM and 512 GB storage without the MX250 GPU and top-out at €1,999 for the Core i7 variant with 16 GB RAM, 1 TB SSD, and the MX250 GPU."
+    },
+    {
+        "id": "1",
+        "productName": "Apple Macbook Pro 2020",
+        "image": "macbook-pro-13.jpg",
+        "cpu": "6-core Intel i7, 8th generation",
+        "ram": "16GB",
+        "storage": "1TB GB SSD",
+        "screen": "13-inch Retina display",
+        "price": "1799",
+        "description": "The design of the MacBook Pro 13-inch is looking dated at this point, as I’d like to see thinner bezels or (gasp!) even a touchscreen. But if you’re looking for a laptop that’s more powerful than the MacBook Air but almost as portable, the new MacBook Pro 2020 will more than satisfy and is one of the best laptops you can buy.Those who want to configure their own MacBook Pro 2020 base model can choose an 8th gen Core i7 processor for $300, 16GB of RAM for $100 and 512GB, 1TB or 2TB of storage for $200, $400 and $800, respectively. If you opt for the $1,799 model, you can jump up to a 10th gen Core i7 chip for $200, 32GB of RAM for $400 and as much as 4TB of storage for $1,200."
+    },
+    {
+        "id": "2",
+        "productName": "Dell XPS 13 2020",
+        "image": "dell-xps-13.png",
+        "cpu": "Intel Core i7, 8th generation",
+        "ram": "16GB",
+        "storage": "512 GB SSD",
+        "screen": "13.3-inch, Full HD",
+        "price": "1749",
+        "description": "In 2020, Dell XPS 13 continues this tradition of delivering sheer power in a truly portable laptop that looks and feels great. Only this time, it’s even better with much-needed improvements like even thinner bezels and an innovative webcam.For a Dell XPS 13 configuration with an Intel Ice Lake Core i5 processor, 8GB of RAM and a 256GB SSD, you have to spend $1,249 (₤1,399, AU$2,499).Of course if that's not enough, you can configure the new Dell XPS 13 with more powerful hardware and better displays, with the price tag going up in turn. The unit we reviewed, with the hardware listed to the right, will set you back $1,749 (₤1,599, AU$3,099), with a 10th-gen Core i7 and a touchscreen. "
+    },
+    {
+        "id": "3",
+        "productName": "Asus Zephyrus G14 2020",
+        "image": "asus-zenbook-flip-s.jpg",
+        "cpu": "AMD Ryzen 7 4800HS,  Graphics: NVIDIA GeForce GTX 1660 Ti — RTX 2060",
+        "ram": "Up to 32GB",
+        "storage": "512GB / 1TB M.2 NVMe PCIe 3.0",
+        "screen": " 14-inch Non-glare Full HD (1920 x 1080) IPS-level panel, up to 120Hz – 14-inch Non-glare WQHD (2560 x 1440) IPS-level panel, 60Hz ",
+        "price": "1869",
+        "description": "The Asus Zephyrus G14 may be designed like a gaming laptop, but it’s proven itself a more than capable all-around laptop. Whether you are serious about your gaming or need a powerful laptop for productivity or content creation, this Asus laptop delivers incredible performance as well as an amazing battery life, a fast screen, and a thin and light chassis that makes it super portable. It’s not the cheapest option out there, but you have to pay a premium for quality. And, if you’re an AMD fan, you’ll certainly appreciate the processor under its hood."
+    },
+    {
+        "id": "4",
+        "productName": "Samsung Notebook 9 Pen 15 2020",
+        "image": "samsung-notebook-9.jpg",
+        "cpu": "8th Gen Intel® Core™ i7 Mobile Processor 15 FHD LED Display (1920x1080 dots)",
+        "ram": "16 GB LPDDR3 Memory",
+        "storage": "1 TB SSD Storage",
+        "screen": "15-inch, Full HD",
+        "price": "1799",
+        "description": "The amazingly sleek 2-in-1 Notebook 9 Pen rotates 360° and comes with the game-changing S Pen, which gives you more ways to be productive whether you like to touch, type, sketch or write. Experience high-impact performance with the latest Intel 8th Gen i7 processor and NVIDIA® GeForce® MX150 graphics card plus up to 15 hours of battery life* for uninterrupted work, study and gaming.Equipped with the Intel® 8th Generation i7 processor and Gigabit Wifi, the Notebook 9 Pen gives you the power and the agility to be productive. Get more done by quickly and efficiently switching between apps and windows with ease. Experience blazing speeds—from booting up to multitasking to launching advanced programs—thanks to the included 1TB SSD."
+    }
+]
