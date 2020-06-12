@@ -46,14 +46,6 @@ const server = http.createServer((req, res) => {
   } 
 
   // IMAGES
-  // else if ((/\.(jpg|jpeg|png|gif)$/i).test(pathName)) {
-  //   fs.readFile(`${__dirname}/data/img{pathName}`, (err, data) => {
-  //     res.writeHead(200, { 'Content-type': 'image/jpg' });
-  //     res.end(data);
-  //   });
-  // }
-
-  // IMAGES
   else if ((/\.(jpg|jpeg|png|gif)$/i).test(pathName)) {
     fs.readFile(`${__dirname}/data/img${pathName}`, (err, data) => {
         res.writeHead(200, { 'Content-type': 'image/jpg'});
