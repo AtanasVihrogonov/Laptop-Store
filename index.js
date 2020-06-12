@@ -27,7 +27,6 @@ const server = http.createServer((req, res) => {
         
         const cardsOutput = laptopData.map(el => replaceTemplate(data, el)).join('');
         overviewOutput = overviewOutput.replace('{%CARDS%}', cardsOutput);
-
         
         res.end(overviewOutput);
       });
@@ -45,6 +44,22 @@ const server = http.createServer((req, res) => {
       res.end(output);
     });
   } 
+
+  // IMAGES
+  // else if ((/\.(jpg|jpeg|png|gif)$/i).test(pathName)) {
+  //   fs.readFile(`${__dirname}/data/img{pathName}`, (err, data) => {
+  //     res.writeHead(200, { 'Content-type': 'image/jpg' });
+  //     res.end(data);
+  //   });
+  // }
+
+  // IMAGES
+  else if ((/\.(jpg|jpeg|png|gif)$/i).test(pathName)) {
+    fs.readFile(`${__dirname}/data/img${pathName}`, (err, data) => {
+        res.writeHead(200, { 'Content-type': 'image/jpg'});
+        res.end(data);
+    });
+  }
 
   // URL NOT FOUND
   else {
@@ -69,5 +84,6 @@ function replaceTemplate(originalHtml, laptop) {
   output = output.replace(/{%ID%}/g, laptop.id);
   return output;
 }
+
 
 

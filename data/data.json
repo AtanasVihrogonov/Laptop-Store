@@ -13,7 +13,7 @@
     {
         "id": "1",
         "productName": "Apple Macbook Pro 2020",
-        "image": "macbook-pro-13.jpg",
+        "image": "mac-book-pro.png",
         "cpu": "6-core Intel i7, 8th generation",
         "ram": "16GB",
         "storage": "1TB GB SSD",
@@ -24,7 +24,7 @@
     {
         "id": "2",
         "productName": "Dell XPS 13 2020",
-        "image": "dell-xps-13.png",
+        "image": "notebook-xps.png",
         "cpu": "Intel Core i7, 8th generation",
         "ram": "16GB",
         "storage": "512 GB SSD",
@@ -35,7 +35,7 @@
     {
         "id": "3",
         "productName": "Asus Zephyrus G14 2020",
-        "image": "asus-zenbook-flip-s.jpg",
+        "image": "asus.png",
         "cpu": "AMD Ryzen 7 4800HS",
         "ram": "Up to 32GB",
         "storage": "512GB / 1TB M.2 NVMe PCIe 3.0",
@@ -46,7 +46,7 @@
     {
         "id": "4",
         "productName": "Samsung Note 9 Pen 2020",
-        "image": "samsung-notebook-9.jpg",
+        "image": "samsung-notebook-9.png",
         "cpu": "8th Gen Intel® Core™ i7",
         "ram": "16 GB LPDDR3 Memory",
         "storage": "1 TB SSD Storage",
