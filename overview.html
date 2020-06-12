@@ -30,15 +30,15 @@
       font-family: "Nunito Sans", sans-serif;
       color: #555;
       min-height: 100vh;
-      background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+      background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%); 
+      /* background: linear-gradient(to bottom right, #67b26f, #4ca2cd); */
     }
 
     h1 {
       font-family: "Bungee Inline", sans-serif;
       font-weight: 400;
       font-size: 6rem;
-      color: rgb(54, 83, 87);
-      transform: skewY(-5deg);
+      color: rgb(83, 107, 97);
       margin-bottom: 6rem;
       text-align: center;
       position: relative;
@@ -48,7 +48,7 @@
     h1::before {
       content: '';
       display: block;
-      height: 50%;
+      height: 25%;
       width: 58%;
       position: absolute;
       top: 105%;
@@ -64,19 +64,22 @@
       margin: 0 auto;
     }
 
-    .laptop {
-      width: 70rem;
-      margin: 0 auto;
+    .cards-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 6rem;
+    }
+
+    .card {
       background: white;
       box-shadow: 0 3rem 6rem 1rem rgba(0, 0, 0, 0.25);
+    }
+
+    .card__hero {
       position: relative;
     }
 
-    .laptop__hero {
-      position: relative;
-    }
-
-    .laptop__hero::before {
+    .card__hero::before {
       content: '';
       display: block;
       height: 100%;
@@ -85,95 +88,62 @@
       top: 0;
       left: 0;
       background-image: linear-gradient(to right bottom, #67b26f, #4ca2cd);
-      opacity: .4;
+      opacity: .3;
     }
 
-    .laptop__img {
+    .card__img {
       width: 100%;
       display: block;
     }
 
-    .laptop__price {
-      position: absolute;
-      top: -3rem;
-      right: -3rem;
-      z-index: 100;
-      background: linear-gradient(to right bottom, #67b26f, #4ca2cd);
-      height: 14rem;
-      width: 14rem;
-      border: 6px solid white;
-      border-radius: 50%;
-      transform: rotate(15deg);
-      box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.4);
-      color: white;
-      font-size: 3rem;
-      font-family: "Bungee Inline", sans-serif;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-
-    .laptop__back:link,
-    .laptop__back:visited {
-      position: absolute;
-      top: 2rem;
-      left: 2rem;
-      font-size: 1.5rem;
-      color: white;
-      font-weight: 700;
-      text-transform: uppercase;
-      text-decoration: none;
-      z-index: 1;
-      border: 2px solid white;
-      border-radius: 100rem;
-      padding: 0 2rem;
-      transition: all .3s;
-      display: flex;
-      align-items: center;
-    }
-
-    .laptop__back:hover,
-    .laptop__back:active {
-      background-color: white;
-      color: #555;
-    }
-
-    .laptop__name {
+    .card__name {
       background: linear-gradient(to right, #67b26f, #4ca2cd);
-      padding: 1.75rem 1rem;
+      padding: 1.3rem .8rem;
       font-family: "Bungee Inline", sans-serif;
       font-weight: 400;
-      font-size: 3.25rem;
+      font-size: 2rem;
       color: white;
+      margin-bottom: 2rem;
       text-align: center;
-      word-spacing: 2px;
+      word-spacing: 1px;
     }
 
-    .laptop__details {
-      background-color: #eee;
-      padding: 4rem 6rem;
-      font-size: 1.5rem;
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      grid-gap: 1.75rem;
-    }
-
-    .laptop__description {
-      padding: 5rem 6rem;
+    .card__detail {
       font-size: 1.6rem;
-      line-height: 1.8;
+      padding: 1.5rem 3rem;
+      display: flex;
+      align-items: center;
     }
 
-    .laptop__link:link,
-    .laptop__link:visited {
-      display: block;
+    .card__detail:first-of-type {
+      border-bottom: 1px solid #eee;
+    }
+
+    .card__footer {
+      display: flex;
+      margin-top: 1.5rem;
+    }
+
+    .card__price {
+      flex: 0 0 50%;
+      background-color: #eee;
+      border-top: 1px solid #e1e1e1;
+      padding: 1.25rem;
+      font-size: 1.8rem;
+      font-weight: 700;
+      text-align: center;
+    }
+
+    .card__link:link,
+    .card__link:visited {
+      flex: 0 0 50%;
       background-color: #5aaa9d;
       color: white;
-      font-size: 1.6rem;
+      font-size: 1.4rem;
       font-weight: 700;
       text-transform: uppercase;
       text-decoration: none;
-      padding: 1.5rem;
+      padding: 1.25rem 1rem;
       text-align: center;
       display: flex;
       align-items: center;
@@ -181,25 +151,9 @@
       transition: all .3s;
     }
 
-    .laptop__link:hover,
-    .laptop__link:active {
+    .card__link:hover,
+    .card__link:active {
       background-color: #67b26f;
-    }
-
-    .laptop__source {
-      padding: 0 6rem 3rem;
-      color: #999;
-      font-size: 1.2rem;
-    }
-
-    .laptop__source a:link,
-    .laptop__source a:visited {
-      color: #999;
-    }
-
-    .laptop__source a:hover,
-    .laptop__source a:active {
-      color: #555;
     }
 
     .emoji-left {

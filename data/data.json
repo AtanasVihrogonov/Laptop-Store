@@ -1,7 +1,7 @@
 [
     {
         "id": "0",
-        "productName": "Huawei MateBook X Pro 2020",
+        "productName": "Huawei Mate X Pro 2020",
         "image": "huawei-matebook-pro.jpg",
         "cpu": "Intel Core i7, 8th generation",
         "ram": "16GB",
@@ -36,18 +36,18 @@
         "id": "3",
         "productName": "Asus Zephyrus G14 2020",
         "image": "asus-zenbook-flip-s.jpg",
-        "cpu": "AMD Ryzen 7 4800HS,  Graphics: NVIDIA GeForce GTX 1660 Ti — RTX 2060",
+        "cpu": "AMD Ryzen 7 4800HS",
         "ram": "Up to 32GB",
         "storage": "512GB / 1TB M.2 NVMe PCIe 3.0",
-        "screen": " 14-inch Non-glare Full HD (1920 x 1080) IPS-level panel, up to 120Hz – 14-inch Non-glare WQHD (2560 x 1440) IPS-level panel, 60Hz ",
+        "screen": " 14-inch Non-glare FullHD",
         "price": "1869",
         "description": "The Asus Zephyrus G14 may be designed like a gaming laptop, but it’s proven itself a more than capable all-around laptop. Whether you are serious about your gaming or need a powerful laptop for productivity or content creation, this Asus laptop delivers incredible performance as well as an amazing battery life, a fast screen, and a thin and light chassis that makes it super portable. It’s not the cheapest option out there, but you have to pay a premium for quality. And, if you’re an AMD fan, you’ll certainly appreciate the processor under its hood."
     },
     {
         "id": "4",
-        "productName": "Samsung Notebook 9 Pen 15 2020",
+        "productName": "Samsung Note 9 Pen 2020",
         "image": "samsung-notebook-9.jpg",
-        "cpu": "8th Gen Intel® Core™ i7 Mobile Processor 15 FHD LED Display (1920x1080 dots)",
+        "cpu": "8th Gen Intel® Core™ i7",
         "ram": "16 GB LPDDR3 Memory",
         "storage": "1 TB SSD Storage",
         "screen": "15-inch, Full HD",
