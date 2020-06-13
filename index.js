@@ -60,9 +60,10 @@ const server = http.createServer((req, res) => {
   }
 });
 
-server.listen(1337, '127.0.0.1', () => {
-  console.log('Listening for request now');
-});
+// server.listen(1337, '127.0.0.1', () => {
+//   console.log('Listening for request now');
+// });
+server.listen(process.env.PORT || 3000);
 
 function replaceTemplate(originalHtml, laptop) {
   let output = originalHtml.replace(/{%PRODUCTNAME%}/g, laptop.productName);
